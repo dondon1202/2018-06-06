@@ -1,0 +1,1034 @@
+@font-face {
+    font-family: Dosis;
+    src: url('../Dosis v1.7/Dosis-Light.ttf');
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/* PART-1 CSS */
+
+.part-1-bgi {
+    background-image: url('../images/3.jpg');
+    color: white;
+}
+.part-1-bgi .row.part-1 {
+    margin-bottom: -80px;
+    padding-top: 50px;
+}
+.part-1-bgi .bgc-left {
+    background-color: #2E3037;
+    padding: 30px ;
+}
+.part-1-bgi h1, p{ 
+    letter-spacing: 3px;
+    padding: 0 20px ;
+
+}
+.part-1-bgi  div {
+    padding: 5px 10px;
+
+}
+/* .part-1-bgi .row.mg-t-60px {
+    box-shadow: 1px 1px 3px black;
+}  */
+.part-1-bgi .bgc-left .close-l{
+    opacity: 0.5;
+    
+}
+.part-1-bgi .bgc-left{
+    z-index: 10;
+    /* box-shadow: 1px 1px 10px rgba(7, 7, 7, 0.877); */
+}
+.part-1-bgi .bgc-right{
+    z-index: 10;
+    /* box-shadow: 1px 1px 10px rgba(7, 7, 7, 0.877); */
+    
+}
+.part-1-bgi a i{
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 45px;
+    padding-top: 14px;
+    text-align: center;
+    
+    
+}
+.part-1-bgi a i.mg-l-10px{
+    color: white;
+    background-color: #2E3037;
+    border: 1px solid white;
+}
+.part-1-bgi a i:hover.mg-l-10px{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+.part-1-bgi .bgc-right {
+    background-color: #292B31;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part-1-bgi img {
+    text-align: center;
+    width: 100%;
+}
+
+
+.address-info th {
+    padding-left: 12px;
+}
+
+.address-info td{
+    padding-left: 50px;
+    opacity: 0.5;
+    line-height: 2.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PART-2 CSS */
+
+.part-2 {
+  
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #292b31 55%, #2e3037 41%) repeat scroll 0 0;
+}
+.part-2 .row {
+    padding: 150px 0px 115px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+         /* part-2右半邊 */
+.part-2 h1 {
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 10px;  
+}
+.part-2 p {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 27px;
+    opacity: 0.7;
+    padding-bottom: 50px;
+    padding-right: 40px;
+     
+    
+
+}
+.vertical-lr{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 0;
+    text-orientation: upright;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    margin-top: 50px;
+}
+
+
+.part-2 .button-1{
+    position: relative;
+    text-align: center;
+    padding: 20px 50px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    z-index: 2;
+    transition: all .4s; 
+}
+
+.part-2 .button-1:hover{
+    color: black;
+    background-color: white;
+  
+}
+.part-2 .box-tr-1{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    transition: all .4s; 
+    z-index: -1;
+}
+.part-2 .button-1:hover .box-tr-1{
+    height: 100%;
+}
+
+
+
+.part-2 .button-2{
+    position: relative;
+    text-align: center;
+    padding: 20px 50px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    z-index: 2;
+    transition: all .4s; 
+}
+
+.part-2 .button-2:hover{
+    color: white;
+    background-color: transparent;
+  
+}
+.part-2 .box-tr-2{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .4s; 
+    z-index: -1;
+}
+.part-2 .button-2:hover .box-tr-2{
+    height: 0%;
+}.part-2 .button-1{
+    position: relative;
+    text-align: center;
+    padding: 20px 50px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    z-index: 2;
+    transition: all .4s; 
+}
+
+.part-2 .button-1:hover{
+    color: black;
+    background-color: white;
+  
+}
+.part-2 .box-tr-1{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    transition: all .4s; 
+    z-index: -1;
+}
+.part-2 .button-1:hover .box-tr-1{
+    height: 100%;
+}
+
+
+
+.part-2 .button-2{
+    position: relative;
+    text-align: center;
+    padding: 20px 50px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    z-index: 2;
+    transition: all .4s; 
+}
+
+.part-2 .button-2:hover{
+    color: white;
+    background-color: transparent;
+  
+}
+.part-2 .box-tr-2{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .4s; 
+    z-index: -1;
+}
+.part-2 .button-2:hover .box-tr-2{
+    height: 0%;
+}
+
+
+
+
+
+         /* part-2右半邊 */
+.part-2 .bgc-right{
+    background-color: #32343C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.534);
+}
+.part-2 .bgc-right img{
+    padding: 30px 0px;
+    width: 100%;
+
+}
+.part-2 span img{
+    padding: 0px 0px 60px 30px;
+}
+
+
+.part-2-l{
+    background-color: #292B31;
+   
+    z-index: 0;
+}
+.part-2-r{
+    background-color: #2E3037;
+   
+    z-index: 0;
+}
+.part-2 .part-2-l p{
+    font-size: 14px;
+    padding-left: 40px;
+}
+.part-2 .part-2-l h1{
+    font-size: 25px;
+}
+
+
+
+
+
+
+.carousel-inner{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-3 CSS */
+.part-3 {
+  
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #2e3037 55%, #292b31 41%) repeat scroll 0 0;
+}
+.part-3 .bgc-right{
+    background-color: #32343C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.534);
+}
+.part-3 .bgc-right img{
+    
+    width: 100%;
+
+}
+.part-3 .box{
+    padding-left:140px;
+}
+.part-3 h6 {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.part-3 div {
+    font-size: 12px;
+}
+.part-3 .text-white{
+    text-align: right;
+}
+.bar-outside{
+    background-color: rgb(67, 69, 78);
+    height: 2px;
+    overflow: hidden;
+    margin: 20px 0px 40px 0px;
+
+}
+.bar-outside-2{
+    background-color: rgb(67, 69, 78);
+    height: 2px;
+    overflow: hidden;
+    margin: 20px 0px 0px 0px;
+
+}
+.bar-inside{
+    background-color: rgb(220, 223, 233);
+    height: 2px;
+    float:right;
+    visibility: visible;
+    animation-duration: 0.5s;
+    width: 0%;
+    overflow: hidden;
+    
+ 
+}
+.bar-1{
+    width: 60%;
+    
+    
+    /* animation: fadeInRight 2s 1;  */
+    /* animation-delay: 2s; */
+
+}
+.bar-2{
+    width: 90%;
+    animation-delay: 3s;
+    
+    animation: fadeInRight 2s 1; 
+    
+}
+.bar-3{
+    width: 50%;
+   
+    
+    animation: fadeInRight 2s 1; 
+   
+}
+.bar-4{
+    width: 40%;
+    
+  
+    animation: fadeInRight 2s 1; 
+
+}
+.bar-5{
+    width: 70%;
+  
+    
+    animation: fadeInRight 2s 1; 
+   
+}
+
+
+
+/* PART-4 CSS */
+
+
+.part-4 .cover {
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.part-4{
+    background-image: url('../images/parallax-dark.jpg');
+  
+    background-size: cover;
+    background-attachment: fixed;
+}
+.part-4 .row{
+    padding: 130px 0px;
+}
+.part-4 .box-o{
+    
+    color: white;
+
+}
+.part-4 .box-o img{
+    
+    margin: 0 auto;
+}
+.part-4 .box-i {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.part-4 .word {
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+
+}
+.mg-0-auto{
+    margin: 0 auto;
+}
+
+
+
+
+.part-4 .b2{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* PART-5 CSS */
+.part-5{
+    background-color: #292B31;
+}
+.part-5 .row {
+    padding: 100px 0px 0px 0px;
+}
+.part-5 .left h1{
+    color: white;
+    font-size: 35px;
+}
+.part-5 .right h6{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    line-height: 1.5;
+    opacity: 0.6; 
+}
+.part-5 .bg{
+    background-color: #32343B;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-5 .box-o{
+    width: 85%;
+    background-color:#292B31;
+    height: 85%;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+     box-shadow: 1px 1px 10px #292B31;
+}
+.part-5 .box-i {
+    padding: 90px 30px;
+ 
+    
+}
+.part-5 .box-i i {
+    font-size: 45px;
+    color: white;
+    padding: 30px 0px;
+}
+.part-5 .box-i h6 {
+    color: white;
+    padding: 0px 0px 10px 0px;
+    font-size: 23px;
+}
+.part-5 .box-i p {
+    color: white;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.part-5 .box-i a{
+    padding: 50px 0px;
+    font-size: 12px;
+    color: white;
+}
+.part-5 .box-i a i {
+    font-size: 12px;
+    color: white;
+    padding-left: 5px;
+    transition: all .4s;
+}
+.part-5 .box-i div:hover i{
+    padding-left: 10px; 
+}
+
+
+.part-5 .container {
+    padding: 0px 0px 100px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-6 CSS */
+
+.part-6 {
+    background-color: #2E3037;
+}
+.part-6 .row {
+    padding: 70px 0px;
+}
+.part-6 h1 {
+    color: white;
+    font-size: 35px;
+}
+.part-6 ul a{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    transition: all .4s;
+    opacity: 0.8;
+}
+.part-6 ul a:hover{
+    opacity: 1;
+}
+.part-6 ul a div {
+    border-bottom: 1px solid white;
+    width: 0%;
+    transition: all .5s;
+}
+.part-6 ul a:hover div{
+    width: 60%;
+}
+
+
+.part-6 .wandh-1{
+    width: 88%;
+    height: 86%;
+}
+.part-6 .wandh-2{
+    width: 88%;
+    height: 92%;
+}
+
+
+
+.part-6 .box i{
+    border: 1px solid white;
+    font-size: 12px;
+    padding: 9px;
+    margin-right: 5px; 
+    transition: all .4s;
+  
+}
+.part-6 .box i:hover{
+    background-color: white;
+    color: black;
+}
+
+.part-6 .box .cover {
+    text-align: center;
+    
+}
+.part-6 .box a{
+    color: white;
+}
+.part-6 .box{
+    background-color: rgba(46, 48, 55, 0.589);
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity: 0;
+    transform: translate(-30px,-30px);
+    transition: all .4s;
+}
+.part-6 .col-lg-4:hover .box{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+.part-6 .col-lg-4:hover h6{
+   animation: hinge 2.1s 1;
+}
+.part-6 .col-lg-4:hover i{
+    animation: zoomOutDown 2s 1;
+ }
+ .part-6 .col-lg-4:hover img{
+    animation: zoomOutDown 1.5s 1;
+ }
+.part-6 .bg-set-1{
+    background-size: cover;
+    height: 263px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.part-6 .bg-set-2{
+    background-size: cover;
+    height: 558px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.part-6 .row.up {
+    margin-top: -100px;
+}
+.part-6 .bg-1{
+    background-image: url('../images/02.jpg');
+    
+}
+
+.part-6 .bg-2{
+    background-image: url('../images/04.jpg');
+    
+}
+.part-6 .bg-3{
+    background-image: url('../images/06.jpg');
+  
+}
+.part-6 .bg-4{
+    background-image: url('../images/01.jpg');
+  
+}
+.part-6 .bg-5{
+    background-image: url('../images/05.jpg');
+  
+}
+.part-6 .bg-6{
+    background-image: url('../images/00.jpg');
+  
+}
+
+
+
+
+
+/* PART-7 CSS */
+
+.part-7{
+    background-color: #292B31;
+    color: white;
+}
+
+.part-7 .row.up {
+    padding: 100px 0px 70px 0px
+}
+
+
+.part-7 .bg-1 {
+    margin-top: -100px;
+
+}
+.part-7 .right h6{
+    text-align: right;
+}
+.part-7 img{
+    z-index: -10;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all .4s;
+    width: 100%;
+}
+.part-7 img:hover{
+    opacity: 0.6;
+}
+.part-7 .col-lg-4:hover .box-o {
+    opacity: 1;
+    transform: translate(0px,0px)
+}
+.part-7 .box-o{
+    background-color: #2E3037;
+    width: 80%;
+    margin-left: 19px;
+    z-index: 5;
+    position: relative;
+    opacity: 0.5;
+    transform: translate(20px,0px);
+    transition: all 1s;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+/* .part-7 .bg-1:hover{
+    animation: flip 1.5s 1;
+} */
+.part-7 .box-i{
+    z-index: 10;
+    padding: 40px 30px;
+    margin: 0 auto;
+    opacity: 1;
+    
+}
+
+
+.part-7 .box-i h6 {
+    color: white;
+    padding: 0px 0px 20px 0px;
+    font-size: 23px;
+    
+}
+.part-7 .box-i p {
+    color: white;
+    padding: 0px 0px 20px 0px;
+    font-size: 15px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+}
+.part-7 .box-i a{
+    padding: 50px 0px;
+    font-size: 12px;
+    color: white;
+}
+.part-7 .box-i a i {
+    font-size: 12px;
+    color: white;
+    padding-left: 5px;
+    transition: all .4s;
+}
+.part-7 .box-i div:hover i{
+    padding-left: 12px; 
+}
+
+
+
+
+
+
+/* PART-8 CSS */
+.part-8{
+    background-image: url('../images/dark-footer-bg.jpg');
+    background-size: cover;
+    
+    
+}
+.part-8 .cover{
+    background-color: rgba(2, 2, 2, 0.596);
+}
+.part-8 .row {
+    padding: 100px 0px;
+}
+.part-8 h1 {
+    color: white;
+    font-size: 35px;
+}
+.part-8  p {
+    color: white;
+    padding: 20px 20px 20px 0px;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    line-height: 1.7;
+}
+.part-8 .address-info-box span i {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid white;
+   
+}
+.part-8 .address-info-box .icon-1{
+    padding: 15px 17px;
+}
+.part-8 .text-white {
+    margin-top: 20px;
+}
+.part-8 .description{
+    margin-left: 20px;
+}
+.part-8 .col-lg-6.right{
+    background-color:#32343C;
+
+}
+.part-8 input{
+    background-color: #292B31;
+    border-radius: 0px;
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #292B31;
+}
+
+.part-8 .box {
+    padding: 20px 20px 40px 20px;
+}
+
+.part-8 .button {
+    width: 100%;
+    background-color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.part-8 .button i {
+    font-size: 20px;
+}
+.part-8 .button:hover i{
+    animation: mouse 1.6s 1;
+}
+/* PART-9 CSS */
+/* PART-10 CSS */
+
+
+.nav-style {
+    background-color: #1E1F24;
+}
+/* .nav-style .form-inline a:hover{
+    color: rgba(181, 224, 24, 0.87);
+} */
+.nav-style input{
+    margin: 15px 0px;
+}
+nav a {
+    color: white;
+}
+.nav-style a img {
+    padding: 10px 0px;
+}
+.updown{
+    padding: 100px 0px;
+}
+.pd-0{
+    padding: 0px;
+}
+.mg-0{
+    margin: 0px;
+}
+.pd-t-150px {
+    padding-top: 150px;
+}
+
+
+
+@keyframes mouse {
+    from {
+        transform: translate(0,0) ;
+    }
+    25%{
+        transform: translate(-5px,5px) ;
+    }
+    70%{
+        transform: translate(5px,-5px) ;
+    }
+    to {
+        transform: translate(0,0) ;
+    }
+  }
+
+/* 媒體查詢，在螢幕解析度下低於_____px，設定該class在該解析度下之變化 */
+@media only screen and (max-width: 1199px){
+
+}
+@media only screen and (max-width: 991px){
+  
+}
+@media only screen and (max-width: 767px){
+ 
+    .part-2 .bgc-right{
+        
+        margin-top: 100px;
+    
+    }
+    .part-3 .box{
+        padding: 70px 20px 0px 20px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .part-3 .box{
+        padding: 70px 0px 0px 0px;
+    }
+  
+    .part-8 .col-lg-6.right{
+        margin-top: 0px;
+    }
+    .part-1-bgi h1 {
+       padding-top: 40px;
+        font-size: 30px;
+    }
+    .part-1-bgi p {
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    .part-1, .part-2, .part-3, .part-4, .part-5, .part-6, .part-7 {
+        text-align: center;
+    }
+    .part-1-bgi tr {
+        font-size: 14px;
+    }
+    .part-1-bgi .bgc-left{
+        padding: 0px;
+    }
+    .part-1 .arrow-correct{
+        text-align:left;
+    }
+    .part-1 .arrow-correct a{
+        padding-left: 31.5px;
+   
+        
+    }
+    
+    .part-1 img {
+        margin: 10px;
+    }
+    .part-2 p{
+        padding-right: 0px;
+    }
+    .part-3 h1 {
+        font-size: 30px;
+    }
+    .part-3 .text-white{
+        text-align: center;
+    }
+    .part-4  .row {
+        padding: 90px 0px;
+    }
+    .part-4 .b2{
+        padding: 80px 0px;
+    }
+    .part-5 .right h6{
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .part-6 ul{
+        justify-content: center;
+        padding-bottom: -30px ;
+    }
+    .part-6 .row{
+        padding: 50px 0px;
+    }
+    .part-7 .right h6{
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .part-8 p{
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .part-8 .description {
+        font-size: 14px;
+        text-align: left;
+    }
+    .part-8 span{
+        padding-left: 10px;
+       
+    }
+    .part-8 .address-info-box{
+        padding: 0px 0px 40px 0px;
+    }
+}
